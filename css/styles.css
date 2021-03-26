@@ -1,0 +1,144 @@
+body {
+	font-family: "Ubuntu";
+}
+
+#title {
+	background-color: #ff4c68;
+	color: #fff;
+	overflow: hidden;
+}
+.first-header {
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.5;
+	font-size: 3rem;
+}
+.container-fluid {
+	padding: 3% 15% 9% 15%;
+}
+
+/*NavBar*/
+.navbar {
+	padding: 0px 0px 4.5rem;
+}
+.navbar-brand {
+	font-family: "Ubuntu";
+	font-size: 2.3rem;
+	font-weight: bold;
+}
+.nav-item {
+	color: white;
+	padding: 0px 18px;
+}
+.nav-link {
+	font-size: 1.2rem;
+}
+/*Download Buttons*/
+
+.download-button {
+	margin: 5% 3% 5% 0;
+}
+/*Title Image*/
+.title-image {
+	width: 60%;
+	transform: rotateZ(25deg);
+	position: absolute;
+	right: 30%;	
+}
+
+/*Features*/
+.features-row {
+	text-align: center;
+	margin-top: 45px;
+}
+
+.feat-head {
+	font-family: "Montserrat";
+	font-size: 1.5rem;
+	padding: 10px;
+}
+.fe {
+	font-size: 55px;
+	margin: 10px;
+	color: #ef8172;
+}
+.fe:hover {
+	color: #ff4c68;
+}
+p {
+	color: #8f8f8f;
+	font-weight: bold;
+}
+#features {
+	margin: 10px;
+	background-color: white;
+	position: relative;
+}
+/*Testimonails*/
+
+#testimonials {
+	text-align: center;
+	background-color: #ef8172;
+	color: #fff;
+}
+h2 {
+	font-family: "Montserrat";
+	font-size: 2.4rem;
+	line-height: 1.5;
+}
+.testimonial-image {
+	width: 10%;
+	border-radius: 100%;
+	margin: 20px;
+}
+#press {
+	background-color: #ef8172;
+	padding: 25px;
+}
+.carousel-item {	
+	padding: 7% 15%;
+}
+/*Pricing Section*/
+
+#pricing {
+	padding: 80px;
+	text-align: center;
+}
+.pricing-column {
+	padding: 3% 2%;
+}
+@media (max-width: 1028px) {
+	#title {
+		text-align: center;
+	}
+	.title-image {
+		position: static;
+		transform: rotate(0deg);
+	}
+}
+#cta {
+	background-color: #ff4c68;
+	text-align: center;
+}
+.footer-download {
+	color: white;
+	font-size: 3rem;
+	padding: 80px;
+	font-family: "Montserrat";
+	line-height: 1.5;
+}
+.down-foot {
+	font-weight: bold;
+	margin: 35px 20px;
+}
+#footer {
+	text-align: center;
+	margin: 10px auto 5px auto;
+}
+.foot-icon {
+	margin: 10px;
+}
+.foot-icon:hover {
+	color: #ff4c68;
+	transform: scale(2);
+	cursor: pointer;
+}
